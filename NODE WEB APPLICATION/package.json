@@ -1,0 +1,10 @@
+{
+  "name": "node-web-application",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build"
+  }
+}
